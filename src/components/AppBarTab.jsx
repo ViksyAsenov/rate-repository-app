@@ -9,8 +9,8 @@ const AppBarTab = ({ title, location }) => {
     <Pressable onPress={() => navigate(location)}>
       <Text
         fontWeight="bold"
+        color="textPrimary"
         style={{
-          color: "#ffffff",
           padding: 5,
         }}
       >
